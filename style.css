@@ -1,0 +1,146 @@
+:root {
+    --primary800:#241E4E;
+    --primary500: #42368b;
+    --primary400: #5d4dc2;
+    --gray100: #f7f7fc;
+    --gray200: #eaebee;
+}
+*{
+    margin: 0;
+
+}
+
+body {
+    font-family: 'roboto','sans-serif';
+}
+
+h1 {
+    font-size: 6rem;
+    line-height: 104px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 56px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 32px;
+}
+
+h4 {
+    font-size: 1.25rem;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: var(--primary500);
+    font-weight: normal;
+}
+
+.safe-area {
+    max-width: 1200px;
+    width: 90vw;
+    margin-inline: auto;
+    min-height: 100vh;
+}
+
+.spaced-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content > :not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.main-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.logo {
+    font-size: 1.5rem;
+    line-height: 32px;
+}
+
+nav .logo {
+    font-weight: bold;
+    color:var(--primary500);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    margin-top: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a,
+a:visited,
+ a:focus{
+    text-decoration: none;
+    color: var(--primary500);
+}
+
+nav .menu {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.Footer {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: var(--primary500);
+    position: relative;
+}
+
+.Footer::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    top: 50%;
+    background-color: var(--primary500);
+    margin-left: 10px;
+}
+
+.title-block h3 {
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.title-block {
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.title-block h1 {
+    margin-bottom: 1rem;
+}
+
+.full-width-img {
+    object-fit: cover;
+    display: block;
+    width: 100%;
+}

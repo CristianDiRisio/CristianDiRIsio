@@ -1,0 +1,14 @@
+.contacts-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contacts-item h2 {
+margin-bottom: 2rem;
+}
+
+.contacts-section h4 {
+    margin-bottom: 2rem;
+}
