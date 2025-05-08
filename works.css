@@ -9,9 +9,23 @@
     margin-top: 5rem;
 }
 
-.work-item img{
-    width: 100%;
-    height: 630px;
+.work-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.work-item img {
+    width: 1000px;
+    height: 500px;
     object-fit: cover;
     background-color: black;
+}
+
+.work-item .description {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #5d4dc2;
+
 }
