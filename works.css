@@ -1,8 +1,8 @@
 .works-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     width: 100%;
-    gap: 0 5rem;
+    gap: 5rem 0;
 }
 
 .works-grid > :nth-child(odd) {
