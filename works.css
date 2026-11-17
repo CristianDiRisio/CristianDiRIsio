@@ -3,10 +3,7 @@
     grid-template-columns: 1fr;
     width: 100%;
     gap: 5rem 0;
-}
-
-.works-grid > :nth-child(odd) {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .work-item {
@@ -18,15 +15,16 @@
 }
 
 .work-item img {
-    width: 1000px;
-    height: 500px;
+    width: 100%;
+    max-width: 800px; /* Evita che l'immagine esca dallo schermo come nella foto */
+    height: auto;
+    aspect-ratio: 16 / 9; /* Mantiene una proporzione rettangolare pulita */
     object-fit: cover;
     background-color: black;
 }
 
 .work-item .description {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     font-size: 2rem;
     color: #5d4dc2;
-
 }
